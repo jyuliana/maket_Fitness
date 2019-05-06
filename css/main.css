@@ -1,0 +1,91 @@
+﻿
+body {
+	font-family: 'Clear Sans', sans-serif;
+	overflow: hidden;
+	overflow-y: scroll;
+	font-size:16px;
+	color: #1d2124;
+    position: relative;
+}
+
+
+.navbar-custom{
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px 0 44px;
+    z-index: 999;
+}
+.navbar-custom nav{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.navbar-custom .container{
+    position: relative;
+}
+.navbar-custom .logo{
+
+}
+.navbar-custom nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+.navbar-custom nav a{
+    color: #fff;
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+}
+
+.featured {
+    position: relative;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.navbar {
+	margin: -1rem;
+}
+
+
+.row {
+    line-height: 50px;
+}
+
+.mid-unit .summer-fun .text-block {
+    height: 320px;
+    background-color: #a2ca28;
+    box-shadow: 0 0 60px -20px #000;
+    z-index: 10;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #0d1119;
+    overflow: hidden;
+}
+
+
+ .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #dae0e5;
+    font-size: 18px;
+	padding-left: 39px;
+}
+
+header {
+    background: url('../img/background-photo.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    background-color: #464646;
+    padding-top: 800px;
+    min-width: 100%;
+}
+
